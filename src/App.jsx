@@ -61,31 +61,31 @@ function App() {
         >
           <Form>
             <Fieldset>
-              <Label>
+              <Label htmlFor="name">
                 Nome
               </Label>
-              <Input name="name"/>
+              <Input name="name" id="name" />
               <ErrorMessage name='name' component={ErrorText} />
             </Fieldset>
             <Fieldset>
-              <Label>
+              <Label htmlFor="email">
                 E-mail
               </Label>
-              <Input name="email" type="email" />
+              <Input name="email" type="email" id="email" />
               <ErrorMessage name='email' component={ErrorText} />
             </Fieldset>
             <Fieldset>
-              <Label>
+              <Label htmlFor="password">
                 Senha
               </Label>
-              <Input name="password" type="password"/>
+              <Input name="password" type="password" id="password"/>
               <ErrorMessage name='password' component={ErrorText} />
             </Fieldset>
             <Fieldset>
-              <Label>
+              <Label htmlFor="confirmPassword">
                 Confirme sua senha
               </Label>
-              <Input name="confirmPassword" type="password"/>
+              <Input name="confirmPassword" id="confirmPassword" type="password"/>
               <ErrorMessage name='confirmPassword' component={ErrorText} />
             </Fieldset>
             <Button type='submit'>
