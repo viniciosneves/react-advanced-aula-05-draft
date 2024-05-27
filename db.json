@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "bc92",
+      "name": "Vinicios Neves",
+      "email": "vinicios_neves@hotmail.com",
+      "password": "abcd1234"
+    },
+    {
+      "id": "b3a3",
+      "name": "Vinicios Neves",
+      "email": "marcosviniciosneves@gmail.com",
+      "password": "abcd1234"
+    },
+    {
+      "id": "e579",
+      "name": "Vinicios Neves",
+      "email": "vinicios_neves@hotmail.com.br",
+      "password": "abcd1234"
+    }
+  ]
+}
